@@ -1,9 +1,6 @@
 # Importing the Taichi module to be able to compile the Python code
 import taichi as ti
 
-# Importing the Particle class
-from Particle import Particle
-
 # Initialising Taichi and telling it to use the GPU rather than the CPU.
 ti.init(arch=ti.gpu)
 
